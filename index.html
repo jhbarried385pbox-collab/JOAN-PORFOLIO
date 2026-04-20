@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joan Coderis Lara - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#home" class="logo">
+                <div class="jcl-icon">JCL</div>
+                <span>Joan Coderis Lara</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Joan Coderis Lara</h1>
+            <p>Aspiring Graphic Designer & Creative Student</p>
+            
+            <div class="contact-info">
+                <p><strong>📱</strong> <span>09161635923</span></p>
+                <p><strong>📍</strong> <span>Maangas, Presentacion, Camarines Sur</span></p>
+                <p><strong>🎓</strong> <span>Student Designer</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Joan, a passionate student from the beautiful province of Camarines Sur. I'm currently diving deep into the world of graphic design and discovering my creative voice.</p>
+                    
+                    <p>As a student, I'm constantly learning new techniques, exploring different design styles, and pushing the boundaries of my creativity. Every project is a new adventure and learning opportunity!</p>
+                    
+                    <p>My goal is to become a skilled freelancer who can help businesses and individuals bring their visual stories to life through thoughtful, impactful design.</p>
+                </div>
+                <div class="about-image">
+                    <img src="JOAN.jpg" alt="Joan Coderis Lara">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My Learning Journey</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-icon">🎨</span>
+                    <h3>Adobe Photoshop</h3>
+                    <p>Learning photo editing, digital art, and design fundamentals</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">✏️</span>
+                    <h3>Adobe Illustrator</h3>
+                    <p>Exploring vector graphics and logo design techniques</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">📝</span>
+                    <h3>Typography</h3>
+                    <p>Understanding fonts, layouts, and readable design principles</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🌈</span>
+                    <h3>Color Theory</h3>
+                    <p>Learning color harmony and visual communication</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">💡</span>
+                    <h3>Logo Design</h3>
+                    <p>Creating memorable brand identities and symbols</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">📐</span>
+                    <h3>Layout Design</h3>
+                    <p>Developing cohesive visual compositions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400" alt="Logo Design">
+                    <div class="portfolio-content">
+                        <h3>Logo Design Projects</h3>
+                        <p>Creative and memorable logo designs for various projects</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400" alt="Digital Art">
+                    <div class="portfolio-content">
+                        <h3>Digital Art</h3>
+                        <p>Original digital artwork showcasing creativity</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400" alt="Typography">
+                    <div class="portfolio-content">
+                        <h3>Typography Work</h3>
+                        <p>Experimental typography designs and font combinations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3>Send me a message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="freelance">Freelance Project</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="portfolio">Portfolio Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-section">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <span class="icon">📱</span>
+                        <div>
+                            <strong>Phone</strong><br>
+                            09161635923
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <strong>Location</strong><br>
+                            Maangas, Presentacion, Camarines Sur
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">💼</span>
+                        <div>
+                            <strong>Status</strong><br>
+                            Available for freelance projects
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">🎓</span>
+                        <div>
+                            <strong>Focus</strong><br>
+                            Graphic Design & Visual Arts
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Joan Coderis Lara. All rights reserved.</p>
+            <p>Aspiring Graphic Designer | Student | Creative Professional</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
